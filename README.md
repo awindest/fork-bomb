@@ -1,7 +1,8 @@
+# How to crash your computer
 
-# Project Title
+## or what is known as a fork bomb
 
-A brief description of what this project does and who it's for
+An insanely simple way to crash your computer from the command prompt.
 
 The Bash command :(){ :|:& };: is a fork bomb — a type of denial-of-service attack that exploits the system by rapidly creating a large number of processes, overwhelming system resources and effectively making the machine unresponsive.
 
