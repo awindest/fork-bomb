@@ -1,5 +1,6 @@
-# How to crash your computer
-
+![fork-bomb](https://github.com/user-attachments/assets/44919028-de6e-422c-9042-6e0933211cf1)
+puter
+# How to crash your com
 ## or what is known as a fork bomb
 
 An insanely simple way to crash your computer from the command prompt.
