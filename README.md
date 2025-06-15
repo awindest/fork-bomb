@@ -1,6 +1,6 @@
 ![fork-bomb](https://github.com/user-attachments/assets/44919028-de6e-422c-9042-6e0933211cf1)
-puter
-# How to crash your com
+
+# How to crash your computer
 ## or what is known as a fork bomb
 
 An insanely simple way to crash your computer from the command prompt.
@@ -15,6 +15,8 @@ Let’s break it down character by character:
 ```
 :(){ :|:& };:
 ```
+<img width="831" alt="fork-bomb1" src="https://github.com/user-attachments/assets/18b48bd8-5a2e-4f41-88f8-2687ab6b7965" />
+
 1. ```:()```
 This defines a function named : (yes, a colon is used as the function name — allowed, though unusual).
 
