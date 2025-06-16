@@ -1,6 +1,7 @@
-![fork-bomb](https://github.com/user-attachments/assets/44919028-de6e-422c-9042-6e0933211cf1)
-
 # How to crash your computer
+
+<img width="789" alt="fork-bomb" src="https://github.com/user-attachments/assets/633748a8-0726-4c00-b497-849b35eb2680" />
+
 ## or what is known as a fork bomb
 
 An insanely simple way to crash your computer from the command prompt.
@@ -19,14 +20,16 @@ It defines a function named ```:``` that recursively calls itself twice, once in
 
 Let’s break it down character by character:
 
-<img width="831" alt="fork-bomb1" src="https://github.com/user-attachments/assets/18b48bd8-5a2e-4f41-88f8-2687ab6b7965" />
+<img width="789" alt="fork-bomb1" src="https://github.com/user-attachments/assets/49db30b0-91a3-4e01-b4d0-a349412619af" />
+
 
 ### 1. ```:()```
 This defines a function named : (yes, a colon is used as the function name — allowed, though unusual).
 
 It’s the start of a function definition syntax in Bash.
 
-<img width="831" alt="fork-bomb2" src="https://github.com/user-attachments/assets/2dd41efe-090e-4230-91f0-ac7668429eb2" />
+<img width="789" alt="fork-bomb2" src="https://github.com/user-attachments/assets/ea4c3ae4-cb7a-4997-9ce8-adc05409a51d" />
+
 
 ### 2. ```{ :|:& }```
 The function body. It contains:
@@ -38,11 +41,14 @@ The function body. It contains:
 ```:``` — a second call to the function itself.
 
 ```&``` — runs the piped commands in the background, allowing the function to spawn child processes without waiting for them to finish.
+
 <img width="831" alt="fork-bomb3" src="https://github.com/user-attachments/assets/4923eccc-ab61-4d1c-94d2-26641cf33a19" />
 
 ### 3. ```;```
 Ends the function definition.
-<img width="831" alt="fork-bomb4" src="https://github.com/user-attachments/assets/3885fc53-feb8-4ba3-a42c-51e9ea6083f7" />
+
+<img width="789" alt="fork-bomb4" src="https://github.com/user-attachments/assets/ee9f1e80-f690-432b-b380-02b81f95bec7" />
+
 
 ### 4. ```:```
 Calls the function for the first time, initiating the fork bomb.
